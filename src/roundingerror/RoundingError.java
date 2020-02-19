@@ -38,7 +38,7 @@ public class RoundingError {
                 System.out.println("The round off error = " + error);
             } catch (NumberFormatException nfe) {
                 System.err.println("Invalid input.");
-            } catch (NullPointerException nfe){
+            } catch (NullPointerException npe){
                 System.exit(0);
             }
         }
